@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digit Recognizer</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>Digit Recognizer</h1>
+        <canvas id="Canvas" width="280" height="280"></canvas>
+        <button id="clearButton">Clear</button>
+        <button id="recognizeButton">Recognize</button>
+        <p id="result"></p>
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>
